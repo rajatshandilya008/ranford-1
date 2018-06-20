@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.772" tests="3" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="213.45" tests="34" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin"/>
     <property name="java.vm.version" value="25.121-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="F:\project_BTM\com.RandFord"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vicky\git\ranford\com.RandFord"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="F:\project_BTM\com.RandFord"/>
+    <property name="user.dir" value="C:\Users\Vicky\git\ranford\com.RandFord"/>
     <property name="java.runtime.version" value="1.8.0_121-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\endorsed"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="F:\project_BTM\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8916844325736960981.tmp"/>
+    <property name="classworlds.conf" value="F:\project_BTM\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1451775826109237152.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_121/bin/client;C:/Program Files (x86)/Java/jre1.8.0_121/bin;C:/Program Files (x86)/Java/jre1.8.0_121/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Users\Vicky\Downloads\Compressed\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -52,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="F:\project_BTM\com.RandFord\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Vicky\git\ranford\com.RandFord\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,17 +60,38 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="verify_login" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.457"/>
-  <testcase name="verify_login" classname="com.PageLibrary.com.RandFord.TestExecution" time="0">
-    <skipped message="Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ThinkPad&apos;, ip: &apos;192.168.2.28&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: driver.version: FirefoxDriver"/>
-  </testcase>
-  <testcase name="verify_launch" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.109">
-    <failure message="Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;ThinkPad&apos;, ip: &apos;192.168.2.28&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ThinkPad', ip: '192.168.2.28', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver
-	at com.PageLibrary.com.RandFord.TestExecution.verify_launch(TestExecution.java:14)
-</failure>
-  </testcase>
+  <testcase name="verify_login" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.857"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="8.422"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.467"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="3.955"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.285"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="7.391"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.567"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.194"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="10.575"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="0"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="3.411"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.69"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.439"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="26.413"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="23.067"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="5.297"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="4.814"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="7.056"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="3.979"/>
+  <testcase name="verify_branchCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="6.096"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.816"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.364"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.395"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="6.788"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.448"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.161"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="3.978"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.203"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.567"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.421"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.339"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.04"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="2.996"/>
+  <testcase name="varify_rolesCreation" classname="com.PageLibrary.com.RandFord.TestExecution" time="1.143"/>
 </testsuite>

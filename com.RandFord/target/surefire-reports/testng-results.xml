@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="34" passed="34">
   <reporter-output>
     <line>
       <![CDATA[Launch Test is Pass]]>
@@ -7,13 +7,112 @@
     <line>
       <![CDATA[Login Test is Pass]]>
     </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[BranchCreation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
+    <line>
+      <![CDATA[Role Creation Test is failed]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="44799" started-at="2018-06-15T21:58:37Z" finished-at="2018-06-15T21:59:22Z">
+  <suite name="Suite" duration-ms="212151" started-at="2018-06-18T19:34:58Z" finished-at="2018-06-18T19:38:30Z">
     <groups>
     </groups>
-    <test name="TestinChrome" duration-ms="43951" started-at="2018-06-15T21:58:37Z" finished-at="2018-06-15T21:59:21Z">
+    <test name="TestinChrome" duration-ms="212151" started-at="2018-06-18T19:34:58Z" finished-at="2018-06-18T19:38:30Z">
       <class name="com.PageLibrary.com.RandFord.TestExecution">
-        <test-method status="PASS" signature="verify_launch(java.lang.String)[pri:0, instance:com.PageLibrary.com.RandFord.TestExecution@1e028a9]" name="verify_launch" is-config="true" duration-ms="42643" started-at="2018-06-15T21:58:37Z" finished-at="2018-06-15T21:59:20Z">
+        <test-method status="PASS" signature="verify_launch(java.lang.String)[pri:0, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_launch" is-config="true" duration-ms="38861" started-at="2018-06-18T19:34:58Z" finished-at="2018-06-18T19:35:37Z">
           <params>
             <param index="0">
               <value>
@@ -27,129 +126,1376 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_launch -->
-        <test-method status="PASS" signature="verify_login()[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@1e028a9]" name="verify_login" duration-ms="1259" started-at="2018-06-15T21:59:20Z" finished-at="2018-06-15T21:59:21Z">
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_login" duration-ms="1799" started-at="2018-06-18T19:35:37Z" finished-at="2018-06-18T19:35:39Z">
           <reporter-output>
             <line>
               <![CDATA[Login Test is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- verify_login -->
-      </class> <!-- com.PageLibrary.com.RandFord.TestExecution -->
-    </test> <!-- TestinChrome -->
-    <test name="TestinFirefox" duration-ms="126" started-at="2018-06-15T21:59:22Z" finished-at="2018-06-15T21:59:22Z">
-      <class name="com.PageLibrary.com.RandFord.TestExecution">
-        <test-method status="FAIL" signature="verify_launch(java.lang.String)[pri:0, instance:com.PageLibrary.com.RandFord.TestExecution@b8a058]" name="verify_launch" is-config="true" duration-ms="110" started-at="2018-06-15T21:59:22Z" finished-at="2018-06-15T21:59:22Z">
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="8420" started-at="2018-06-18T19:35:39Z" data-provider="branches" finished-at="2018-06-18T19:35:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[aaaasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ThinkPad', ip: '192.168.2.28', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ThinkPad', ip: '192.168.2.28', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver
-at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:75)
-at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
-at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-at com.PageLibrary.com.RandFord.Repository.launch(Repository.java:39)
-at com.PageLibrary.com.RandFord.TestExecution.verify_launch(TestExecution.java:14)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_launch -->
-        <test-method status="SKIP" signature="verify_login()[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@b8a058]" name="verify_login" duration-ms="0" started-at="2018-06-15T21:59:22Z" finished-at="2018-06-15T21:59:22Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ThinkPad', ip: '192.168.2.28', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN8_1
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'ThinkPad', ip: '192.168.2.28', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver
-at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:75)
-at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:60)
-at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:56)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-at com.PageLibrary.com.RandFord.Repository.launch(Repository.java:39)
-at com.PageLibrary.com.RandFord.TestExecution.verify_launch(TestExecution.java:14)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4469" started-at="2018-06-18T19:35:48Z" data-provider="branches" finished-at="2018-06-18T19:35:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23457]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_login -->
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="3956" started-at="2018-06-18T19:35:52Z" data-provider="branches" finished-at="2018-06-18T19:35:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaasasasa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23458]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4285" started-at="2018-06-18T19:35:56Z" data-provider="branches" finished-at="2018-06-18T19:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaasasaas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23459]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="7389" started-at="2018-06-18T19:36:00Z" data-provider="branches" finished-at="2018-06-18T19:36:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23460]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4567" started-at="2018-06-18T19:36:08Z" data-provider="branches" finished-at="2018-06-18T19:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aasaasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23461]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4195" started-at="2018-06-18T19:36:12Z" data-provider="branches" finished-at="2018-06-18T19:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaasaksasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23462]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4168" started-at="2018-06-18T19:36:16Z" data-provider="branches" finished-at="2018-06-18T19:36:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaasalksasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23463]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4833" started-at="2018-06-18T19:36:21Z" data-provider="branches" finished-at="2018-06-18T19:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mjjfdhfdgdhd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23464]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4983" started-at="2018-06-18T19:36:25Z" data-provider="branches" finished-at="2018-06-18T19:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23465]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4690" started-at="2018-06-18T19:36:30Z" data-provider="branches" finished-at="2018-06-18T19:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23466]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4438" started-at="2018-06-18T19:36:35Z" data-provider="branches" finished-at="2018-06-18T19:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23467]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4916" started-at="2018-06-18T19:36:40Z" data-provider="branches" finished-at="2018-06-18T19:36:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaajasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23468]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="44560" started-at="2018-06-18T19:36:44Z" data-provider="branches" finished-at="2018-06-18T19:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23469]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="5297" started-at="2018-06-18T19:37:29Z" data-provider="branches" finished-at="2018-06-18T19:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aasasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23470]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="4813" started-at="2018-06-18T19:37:34Z" data-provider="branches" finished-at="2018-06-18T19:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaasasasasb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23471]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="7053" started-at="2018-06-18T19:37:39Z" data-provider="branches" finished-at="2018-06-18T19:37:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaaasasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23472]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="3981" started-at="2018-06-18T19:37:46Z" data-provider="branches" finished-at="2018-06-18T19:37:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asmnmnljl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23473]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="verify_branchCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="verify_branchCreation" duration-ms="6096" started-at="2018-06-18T19:37:50Z" data-provider="branches" finished-at="2018-06-18T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaaalosasdasas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sasddsssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sdfdsafadfsd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sdfdsfdsfds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dasdasdas]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23474]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[GOA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[BranchCreation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_branchCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="1817" started-at="2018-06-18T19:37:56Z" data-provider="role" finished-at="2018-06-18T19:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfsfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="1363" started-at="2018-06-18T19:37:58Z" data-provider="role" finished-at="2018-06-18T19:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgafsfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="1394" started-at="2018-06-18T19:38:00Z" data-provider="role" finished-at="2018-06-18T19:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgsfsfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="6786" started-at="2018-06-18T19:38:01Z" data-provider="role" finished-at="2018-06-18T19:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfmsfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="1449" started-at="2018-06-18T19:38:08Z" data-provider="role" finished-at="2018-06-18T19:38:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfksfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="2159" started-at="2018-06-18T19:38:09Z" data-provider="role" finished-at="2018-06-18T19:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfsfdugf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="3976" started-at="2018-06-18T19:38:11Z" data-provider="role" finished-at="2018-06-18T19:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfsfdtgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="2202" started-at="2018-06-18T19:38:15Z" data-provider="role" finished-at="2018-06-18T19:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfsfdrgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="2571" started-at="2018-06-18T19:38:18Z" data-provider="role" finished-at="2018-06-18T19:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgftsrfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="2418" started-at="2018-06-18T19:38:20Z" data-provider="role" finished-at="2018-06-18T19:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgftysfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="1341" started-at="2018-06-18T19:38:22Z" data-provider="role" finished-at="2018-06-18T19:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfasfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="2039" started-at="2018-06-18T19:38:24Z" data-provider="role" finished-at="2018-06-18T19:38:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfsgfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="2995" started-at="2018-06-18T19:38:26Z" data-provider="role" finished-at="2018-06-18T19:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfsfldgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
+        <test-method status="PASS" signature="varify_rolesCreation(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@e63ade]" name="varify_rolesCreation" duration-ms="1143" started-at="2018-06-18T19:38:29Z" data-provider="role" finished-at="2018-06-18T19:38:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dgfslfdgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfdhdhghg]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Role Creation Test is failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- varify_rolesCreation -->
       </class> <!-- com.PageLibrary.com.RandFord.TestExecution -->
-    </test> <!-- TestinFirefox -->
+    </test> <!-- TestinChrome -->
   </suite> <!-- Suite -->
 </testng-results>

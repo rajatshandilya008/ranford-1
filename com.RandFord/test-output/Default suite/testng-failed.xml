@@ -5,6 +5,9 @@
     <classes>
       <class name="com.PageLibrary.com.RandFord.TestExecution">
         <methods>
+          <include name="Varify_excelcontent"/>
+          <include name="varify_BranchExcelContent"/>
+          <include name="closeBrowser"/>
           <include name="verify_login"/>
           <include name="verify_launch"/>
         </methods>

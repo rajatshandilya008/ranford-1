@@ -40,7 +40,7 @@ public class Library {
 		try {
 			MultiPartEmail meemail=new MultiPartEmail();
 			//	Email meemail=new SimpleEmail();
-			meemail.setAuthenticator(new DefaultAuthenticator("vicky6950@gmail.com", "bb"));
+			meemail.setAuthenticator(new DefaultAuthenticator("vicky6950@gmail.com", "BUNI222UTTAM@"));
 			meemail.setHostName("smtp.gmail.com");
 			meemail.setSmtpPort(465);
 			meemail.setSSLOnConnect(true);

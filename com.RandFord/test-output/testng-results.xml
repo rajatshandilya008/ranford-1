@@ -1,89 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Launch Test is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Login Test is Pass]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80" started-at="2018-06-15T21:51:00Z" finished-at="2018-06-15T21:51:00Z">
+  <suite name="Suite" duration-ms="106792" started-at="2018-06-18T20:07:49Z" finished-at="2018-06-18T20:09:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80" started-at="2018-06-15T21:51:00Z" finished-at="2018-06-15T21:51:00Z">
+    <test name="TestinChrome" duration-ms="106792" started-at="2018-06-18T20:07:49Z" finished-at="2018-06-18T20:09:35Z">
       <class name="com.PageLibrary.com.RandFord.TestExecution">
-        <test-method status="FAIL" signature="verify_launch(java.lang.String)[pri:0, instance:com.PageLibrary.com.RandFord.TestExecution@1c27452]" name="verify_launch" is-config="true" duration-ms="0" started-at="2018-06-15T21:51:00Z" finished-at="2018-06-15T21:51:00Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method verify_launch but has not been marked @Optional or defined
-in C:\Users\Vicky\AppData\Local\Temp\testng-eclipse-990719789\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method verify_launch but has not been marked @Optional or defined
-in C:\Users\Vicky\AppData\Local\Temp\testng-eclipse-990719789\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="verify_launch(java.lang.String)[pri:0, instance:com.PageLibrary.com.RandFord.TestExecution@1ec78b9]" name="verify_launch" is-config="true" duration-ms="40511" started-at="2018-06-18T20:07:49Z" finished-at="2018-06-18T20:08:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[Launch Test is Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verify_launch -->
-        <test-method status="SKIP" signature="verify_login()[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@1c27452]" name="verify_login" duration-ms="0" started-at="2018-06-15T21:51:00Z" finished-at="2018-06-15T21:51:00Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method verify_launch but has not been marked @Optional or defined
-in C:\Users\Vicky\AppData\Local\Temp\testng-eclipse-990719789\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method verify_launch but has not been marked @Optional or defined
-in C:\Users\Vicky\AppData\Local\Temp\testng-eclipse-990719789\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="verify_login()[pri:1, instance:com.PageLibrary.com.RandFord.TestExecution@1ec78b9]" name="verify_login" duration-ms="2716" started-at="2018-06-18T20:08:29Z" finished-at="2018-06-18T20:08:32Z">
           <reporter-output>
+            <line>
+              <![CDATA[Login Test is Pass]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="varify_RoleExcelContent()[pri:2, instance:com.PageLibrary.com.RandFord.TestExecution@1ec78b9]" name="varify_RoleExcelContent" duration-ms="18071" started-at="2018-06-18T20:08:32Z" finished-at="2018-06-18T20:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_RoleExcelContent -->
+        <test-method status="PASS" signature="Varify_BranchExcelContent()[pri:3, instance:com.PageLibrary.com.RandFord.TestExecution@1ec78b9]" name="Varify_BranchExcelContent" duration-ms="41785" started-at="2018-06-18T20:08:50Z" finished-at="2018-06-18T20:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Varify_BranchExcelContent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.PageLibrary.com.RandFord.TestExecution@1ec78b9]" name="closeBrowser" is-config="true" duration-ms="3629" started-at="2018-06-18T20:09:32Z" finished-at="2018-06-18T20:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- com.PageLibrary.com.RandFord.TestExecution -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestinChrome -->
+  </suite> <!-- Suite -->
 </testng-results>

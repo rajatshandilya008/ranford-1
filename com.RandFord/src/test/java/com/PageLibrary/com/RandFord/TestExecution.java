@@ -1,24 +1,57 @@
 package com.PageLibrary.com.RandFord;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+
 import Excel.ExcelDataDriven;
 
 public class TestExecution extends Repository {
+	
 @Parameters("browser")
-	@BeforeTest
+@BeforeTest
 		public void verify_launch(String browser) {
 		launch(browser);
 }
-	@Test(priority=2)
+
+
+
+
+	@Test(priority=1)
 	public void verify_login() {
 		login();
 	}
-/*@Test(priority=2)
-	public void Varify_excelcontent() {
+	@Test(priority=2)
+	public void varify_RoleExcelContent() {
+ExcelDataDriven.excelconnection("exceldata1.xls", "RolesSheet");
+ExcelDataDriven.outputexcelconnection("exceldata1.xls", "outputfile.xls", "RolesSheet");
+int c = ExcelDataDriven.ccount();
+for (int r = 1; r < ExcelDataDriven.rcount(); r++) {
+	roleCreation(ExcelDataDriven.readdata(0, r), ExcelDataDriven.readdata(1, r), ExcelDataDriven.readdata(2, r));
+	String text = Generic.handlePopUp(driver).getText();
+	Generic.handlePopUp(driver).accept();
+	if (text.contains("created Sucessfully")) {
+		ExcelDataDriven.writedada(c++, r, "Test is pass");
+		c--;
+	}else if(text.contains("already Exist")){
+		ExcelDataDriven.writedada(c++, r, "Test failed");
+		c--;
+	}else {
+		ExcelDataDriven.writedada(c++, r, "Alert not present");
+	c--;
+	}
+		
+	
+}	
+
+	}
+@Test(priority=3)
+	public void Varify_BranchExcelContent() {
 		ExcelDataDriven.excelconnection("exceldata1.xls", "BranchSheet");
 		ExcelDataDriven.outputexcelconnection("exceldata1.xls", "outputfile.xls", "BranchSheet");
 
@@ -36,8 +69,6 @@ public class TestExecution extends Repository {
 			}else {
 				ExcelDataDriven.writedada(c++, r, "Alert not present");
 			}
-
-
 		}
 
 ExcelDataDriven.saveworkbook();
@@ -45,7 +76,7 @@ ExcelDataDriven.saveworkbook();
 
 
 
-	@Test(priority=2,dataProvider="branches")
+/*	@Test(priority=2,dataProvider="branches")
 	public void verify_branchCreation(String bname,String address1,String address2,String address3,String area,String zipcode,String country,String state,String city) throws InterruptedException {
 		branchCreation(bname,address1,address2,address3,area,zipcode,country,state,city);
 	}
@@ -54,8 +85,17 @@ ExcelDataDriven.saveworkbook();
 		roleCreation(rolename,roleDesc,roleType);
 
 	}
-	
-	@Test(priority=3)
+	@DataProvider(name="branches")
+public String[][] verify_Branchexcelcontent(){
+	return excelcontent("exceldata1.xls","BranchSheet");
+}
+
+@DataProvider(name="role")
+public String[][]  varify_Rolesexcelcontent() {
+return	excelcontent("exceldata1.xls", "RolesSheet");
+}
+	*/
+	/*@Test(priority=3)
 	public void verify_rolesCreation() {
 		roleCreation();
 	}
@@ -86,15 +126,13 @@ ExcelDataDriven.saveworkbook();
 	public void varify_employeeTableEdit() {
 		editEmployeeTable();
 	}
-	 
-	@DataProvider(name="branches")
-public String[][] verify_Branchexcelcontent(){
-	return excelcontent("exceldata1.xls","BranchSheet");
+	 */
+
+	
+
+@AfterTest
+public void closeBrowser() {
+	driver.close();
 }
 
-@DataProvider(name="role")
-public String[][]  varify_Rolesexcelcontent() {
-return	excelcontent("exceldata1.xls", "RolesSheet");
 }
-	 
-*/}

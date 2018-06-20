@@ -7,18 +7,14 @@
 			<class name="com.PageLibrary.com.RandFord.TestExecution">
 				<methods>
 					<include name="verify_login"></include>
+					<include name="varify_RoleExcelContent"></include>
+					<include name="Varify_BranchExcelContent"></include>
 				</methods>
 			</class>
 		</classes>
 	</test>
-	<test thread-count="5" name="TestinFirefox">
-		<parameter name="browser" value="firefox"></parameter>
-		<classes>
-			<class name="com.PageLibrary.com.RandFord.TestExecution">
-				<methods>
-					<include name="verify_login"></include>
-				</methods>
-			</class>
-		</classes>
-	</test>
+	<!-- <test thread-count="5" name="TestinFirefox"> <parameter name="browser" 
+		value="firefox"></parameter> <classes> <class name="com.PageLibrary.com.RandFord.TestExecution"> 
+		<methods> <include name="verify_login"></include> </methods> </class> </classes> 
+		</test> -->
 </suite> 

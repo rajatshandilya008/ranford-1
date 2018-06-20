@@ -26,18 +26,15 @@ public class Repository extends Base {
 	}
 	public void launch(String browser) 
 	{
-		if (browser.equalsIgnoreCase("chrome")) 
-		{
-			System.setProperty("webdriver.chrome.driver",
-					"F:\\project_BTM\\com.RandFord\\src\\test\\java\\drivers\\chromedriver.exe");
+		if (browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "./src/test/java/drivers/chromedriver.exe");
 			driver=new ChromeDriver();
-
-		}
-		 else if(browser.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver",
-					"F:\\project_BTM\\com.RandFord\\src\\test\\java\\drivers\\geckodriver.exe");
+			
+		}else {
+			System.setProperty("webdriver.gecko.driver", "./src/test/java/drivers/geckodriver.exe");
 			driver=new FirefoxDriver();
-		 }
+		}
+		 
 		driver.get("http://183.82.100.55/ranford1/home.aspx");
 		driver.manage().window().maximize();
 		if (Validation.IsTextPresent(driver, "Welcome to Personalized Banking")) 
@@ -69,7 +66,7 @@ public class Repository extends Base {
 			Reporter.log("BranchCreation Test is failed");
 			Library.attachment("branch_creation");
 		}
-		Generic.handlePopUp(driver);*/
+		Generic.handlePopUp(driver).accept();*/
 	}
 	public void roleCreation(String rolename, String roleDesc, String roleType) {
 		AdminPage.roles_link(driver).click();
@@ -78,13 +75,13 @@ public class Repository extends Base {
 		NewRolePage.roleDesc_text(driver).sendKeys(roleDesc);
 		Generic.dropdown(driver, getlocator("roleType"), roleType);
 		NewRolePage.submitRole(driver).click();
-		if (Validation.isAlertPresent(driver, "Created Sucessfully")) {
+		/*if (Validation.isAlertPresent(driver, "Created Sucessfully")) {
 			Reporter.log("Role Creation Test is pass");
 		}else {
 			Reporter.log("Role Creation Test is failed");
 			Library.screenshort("roleCreation_failed");
 		}
-		Generic.handlePopUp(driver);
+		Generic.handlePopUp(driver).accept();*/
 	}
 	public void userCreation() {
 		AdminPage.users_link(driver).click();
